@@ -1,6 +1,6 @@
   "orders":
     {
-      "id": "ord1",
-      "amount": "100",
+      "id": 1,
+      "amount": 100,
       "saledate":"01/01/2023"
     }
