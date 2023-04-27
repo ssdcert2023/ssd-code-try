@@ -1,0 +1,17 @@
+{
+  "orders": [
+    {
+      "id": "ord1",
+      "amount": "100",
+      "saledate":"01/01/2023"
+    },
+    {
+      "id": "ord2",
+      "amount": "200",
+      "saledate":"02/01/2023"
+    },
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
