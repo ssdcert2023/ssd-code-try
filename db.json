@@ -1,25 +1,24 @@
 {
- "orderheader" :
+	"orderheader": {
+		"orderid": "123",
+		"orderdate": "2023-07-05"
+	},
+	"orderline": [
+  {
+		"orderitem": "sku1",
+		"orderqty": 10,
+		"orderUOM": 5,
+		"orderamt": 50,
+		"shiptoaddress": [
    {
-      "orderid": "123",
-      "orderdate" : "2023-07-05T22:18:26.625Z",
-   }
- "orderline" : [
-   {
-     "orderitem": "sku1"
-     "orderqty": 10,
-     "orderUOM": 5,
-     "orderamt":50,
-     "shiptoaddress": [
-       {
-       "shipaddr1":"111 Streeet 1",
-       "shiptostate":"CA",
-       "shiptozip":"99999"
-       }
-      ]
-  }
- ],
-  "profile": {
-    "name": "ssdcert2023"
-  }
+			"shipaddr1": "111 Streeet 1",
+			"shiptostate": "CA",
+			"shiptozip": "99999"
+		}
+  ]
+	}
+],
+	"profile": {
+		"name": "ssdcert2023"
+	}
 }
