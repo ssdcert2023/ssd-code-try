@@ -1,14 +1,25 @@
 {
-  "orders": [
-    {
-      "id": 1,
-      "amount": 100
-    },
-    {
-      "id": 2,
-      "amount": 200
-    }
-  ],
+ "orderheader" :
+   {
+      "orderid": "123"
+      "orderdate" : "07-05-2012",
+   }
+ "orderline" : [
+   {
+     "orderitem": "sku1"
+     "orderqty": 10,
+     "orderUOM": 5,
+     "orderamt":50,
+     "shiptoaddress": [
+       {
+       "shipaddr1":"111 Streeet 1",
+       "shiptostate":"CA",
+       "shiptozip":"99999"
+       }
+      ]
+  }
+]
+},
   "profile": {
     "name": "ssdcert2023"
   }
