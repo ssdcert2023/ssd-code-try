@@ -1,38 +1,37 @@
 {
- "orderrecords" : [
+ "orderrecords" : 
  {
-		"orderid": "123",
-		"orderdate": "2023-07-05", 
-	"orderline": [
-  {
-		"orderitem": "sku1",
-		"orderqty": 10,
-		"orderUOM": 5,
-		"orderamt": 50,
-		"shiptoaddress": [
-           {
+	  "orderid": "123",
+          "shipdate": "2023-07-05", 	
+	  "orderitem": "sku1",
+	   "orderqty": 10,
+	   "orderUOM": 5,
+	   "orderamt": 50,
+	   "shiptoaddress": 
+	    {
 			"shipaddr1": "111 Streeet 1",
 			"shiptostate": "CA",
 			"shiptozip": "99999"
-		}
-           ]
-  },
+		},
+	  "orderqty": 10,
+	  "orderunitprice": 5,
+	 "orderamt": 50
+   } ,
 {
-		"orderitem": "sku1",
-		"orderqty": 10,
-		"orderUOM": 5,
-		"orderamt": 50,
-		"shiptoaddress": [
-   {
-			"shipaddr1": "111 Streeet 1",
-			"shiptostate": "CA",
-			"shiptozip": "99999"
+	  "orderid": "123",
+          "shipdate": "2023-07-05", 	
+	  "orderitem": "sku2",
+	   "orderqty": 20,
+	   "orderUOM": 5,
+	   "orderamt": 100,
+	   "shiptoaddress": 
+               {
+			"shipaddr1": "122 Streeet 2",
+			"shiptostate": "OH",
+			"shiptozip": "88888"
+		}
+	  "orderqty": 10,
+	  "orderunitprice": 5,
+	 "orderamt": 50
    }
-	}
-		}		
-],
-	"profile": {
-		"name": "ssdcert2023"
-	}
-	 ]	 
 }
