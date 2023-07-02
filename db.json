@@ -1,10 +1,23 @@
 {
-	"orderheader": {
+ "orderrecords" : [
+ {
 		"orderid": "123",
-		"orderdate": "2023-07-05"
-	},
+		"orderdate": "2023-07-05", 
 	"orderline": [
   {
+		"orderitem": "sku1",
+		"orderqty": 10,
+		"orderUOM": 5,
+		"orderamt": 50,
+		"shiptoaddress": [
+           {
+			"shipaddr1": "111 Streeet 1",
+			"shiptostate": "CA",
+			"shiptozip": "99999"
+		}
+           ]
+  },
+{
 		"orderitem": "sku1",
 		"orderqty": 10,
 		"orderUOM": 5,
@@ -14,11 +27,11 @@
 			"shipaddr1": "111 Streeet 1",
 			"shiptostate": "CA",
 			"shiptozip": "99999"
-		}
-  ]
+   }
 	}
 ],
 	"profile": {
 		"name": "ssdcert2023"
 	}
+	 ]	 
 }
