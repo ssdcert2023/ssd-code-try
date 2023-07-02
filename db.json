@@ -1,5 +1,5 @@
 {
- "orderrecords" : 
+ "orderrecords" : [
  {
 	  "orderid": "123",
           "shipdate": "2023-07-05", 	
@@ -12,10 +12,7 @@
 			"shipaddr1": "111 Streeet 1",
 			"shiptostate": "CA",
 			"shiptozip": "99999"
-		},
-	  "orderqty": 10,
-	  "orderunitprice": 5,
-	 "orderamt": 50
+		}
    } ,
 {
 	  "orderid": "123",
@@ -30,8 +27,6 @@
 			"shiptostate": "OH",
 			"shiptozip": "88888"
 		}
-	  "orderqty": 10,
-	  "orderunitprice": 5,
-	 "orderamt": 50
    }
+ ]
 }
