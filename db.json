@@ -17,7 +17,7 @@
 	"orderdetail" : [
  {
 	  "id": 1,
-	  "orderid": "123",
+	  "salesorderno": "123",
           "shipdate": "2023-07-05", 	
 	  "orderitem": "sku1",
 	   "orderqty": 10,
@@ -32,7 +32,7 @@
    } ,
 {
 	  "id": 2,
-	  "orderid": "123",
+	  "salesorderno": "123",
           "shipdate": "2023-07-05", 	
 	  "orderitem": "sku2",
 	   "orderqty": 20,
@@ -43,6 +43,21 @@
 			"shipaddr1": "122 Streeet 2",
 			"shiptostate": "OH",
 			"shiptozip": "88888"
+		}
+   }
+ {
+	  "id": 3,
+	  "salesorderno": "456",
+          "shipdate": "2023-07-05", 	
+	  "orderitem": "sku3",
+	   "orderqty": 100,
+	   "orderUOM": 50,
+	   "orderamt": 5000,
+	   "shiptoaddress": 
+               {
+			"shipaddr1": "888 Streeet 3",
+			"shiptostate": "TN",
+			"shiptozip": "11111"
 		}
    }
  ]
